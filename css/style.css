@@ -1,0 +1,24 @@
+@charset "utf-8";
+
+html,body{
+    height:100%;
+}
+
+body{
+    font-family:'BookSerif', Georgia, 'Times New Roman', serif;
+    background:#f8f9fa;
+    color:#222;
+    line-height:1.45;
+}
+
+.container{
+    max-width:var(--max-width);
+}
+
+/* NAVBAR */
+.navbar-brand{
+    font-weight:700;
+}
+.navbar-nav > .nav-item:first-child {
+    margin-right:1rem;
+}
