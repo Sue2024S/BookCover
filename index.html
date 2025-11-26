@@ -40,7 +40,7 @@
         </header>
         <!-- end of NAVBAR -->
         <main class="container">
-            
+            <h1> Women Who Run With The Wolves</h1>
             <!-- CAROUSEL -->
             <div class="col-12 col-lg-6 order-lg-2 d-flex justify-content-center">
                 <div id="booksCarousel" class="carousel slide w-100" data-bs-ride="carousel" style="max-width:680px;">
@@ -74,9 +74,50 @@
                 </div>
             </div>
             <!-- end of CAROUSEL -->
-    
 
-            
+            <!-- ACCORDION -->
+            <div class="col-12 col-lg-3 order-lg-1">
+                <h2 class="mb-2">Table of Contents</h2>
+                
+                <div class="accordion" id="toc">
+
+                    <section class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1">Chapter 1</button>
+                        </h3>
+                        <div id="collapse1" class="accordion-collapse collapse show" data-bs-parent="#toc">
+                            <div class="accordion-body">
+                                <p>Intro and myths.</p>
+                            </div>
+                        </div> <!-- end collapse1 -->
+                    </section>
+
+                    <section class="accordion-item">
+                        <h3 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2">Chapter 2</button>
+                        </h3>
+                        <div id="collapse2" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                                <p>Stalking the Intruder: The Beginning Initiation.</p>
+                            </div>
+                        </div><!-- end collapse2 -->
+                    </section>
+
+                </div>
+            </div>
+            <!-- end of ACCORDION -->
+
+            <!-- Book cover img -->
+            <div class="col-12 col-lg-3 order-lg-3 text-center">
+                <figure class="mb-2">
+                    <img src="images/book.jpg" alt="Book Cover" class="img-fluid" style="max-width:220px;">
+                    <figcaption class="small text-muted">Book Cover</figcaption>
+                </figure>
+            </div>
+            <!-- end of Book cover img -->
+
+
+
         </main>
         <footer class="mt-5 py-4 border-top text-muted small">
                 <div class="d-flex justify-content-between align-items-center">
