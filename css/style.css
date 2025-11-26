@@ -1,11 +1,13 @@
 @charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Solway:wght@300;400;500;700;800&display=swap');
+
 
 html,body{
     height:100%;
 }
 
 body{
-    font-family:'BookSerif', Georgia, 'Times New Roman', serif;
+    font-family:'Montserrat', sans-serif;
     background:#f8f9fa;
     color:#222;
     line-height:1.45;
@@ -15,10 +17,52 @@ body{
     max-width:var(--max-width);
 }
 
+h1,h2,h3,h4 {
+    font-family: 'Solway', serif;
+}
+
 /* NAVBAR */
+
 .navbar-brand{
     font-weight:700;
+    font-family: "lexend", sans-serif;
+    text-transform: uppercase;
 }
 .navbar-nav > .nav-item:first-child {
     margin-right:1rem;
 }
+
+/* CAROUSEL */
+#booksCarousel { 
+    display:block; 
+}
+#booksCarousel .carousel-inner { 
+    align-items:center; 
+    display:flex; 
+    flex-direction:column; 
+    justify-content:center; 
+    min-height:180px; 
+}
+
+/* REVIEWS */
+blockquote{
+    background:#fff;
+    padding:1rem;
+    border-left:4px solid var(--accent);
+}
+
+/* ANIMATION */
+@keyframes dance {
+  0% { transform: translateY(0) rotate(0deg); }
+  25% { transform: translateY(-6px) rotate(-2deg); }
+  50% { transform: translateY(0) rotate(2deg); }
+  75% { transform: translateY(-4px) rotate(-1deg); }
+  100% { transform: translateY(0) rotate(0deg); }
+}
+
+.small-png{
+  display:inline-block;
+  will-change:transform;
+  animation: dance 2.2s ease-in-out infinite;
+}
+
