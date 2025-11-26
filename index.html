@@ -116,6 +116,67 @@
             </div>
             <!-- end of Book cover img -->
 
+            <!-- TAB PANEL - ABOUT SECTION -->
+            <section id="about" class="mt-4">
+                <h2>About</h2>
+                <ul class="nav nav-tabs" id="aboutTabs" role="tablist">
+                    <li class="nav-item"><button class="nav-link active" data-bs-toggle="tab" data-bs-target="#about-book">Book</button></li>
+                    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#about-author">Author</button></li>
+                    <li class="nav-item"><button class="nav-link" data-bs-toggle="tab" data-bs-target="#about-publisher">Publisher</button></li>
+                </ul>
+                <div class="tab-content p-3 border border-top-0">
+                    <div class="tab-pane fade show active" id="about-book">
+                        <p class="lead">Short synopsis: Women Who Run With the Wolves explores myths and stories to reclaim the wild woman archetype.</p>
+                    </div>
+                    <div class="tab-pane fade" id="about-author">
+                        <div class="d-flex flex-column flex-md-row align-items-center gap-3">
+                            <img src="images/ClarissaPinkola.jpg" alt="Author" class="img-thumbnail" style="max-width:160px;">
+                            <div><h5>Clarissa Pinkola Estés</h5><p class="small text-muted">Jungian analyst and storyteller.</p></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="about-publisher">
+                        <p><strong>Publisher:</strong> Ballantine Books — short publisher blurb and info.</p>
+                    </div>
+                </div>
+            </section>
+            <!-- end of TAB PANEL - ABOUT SECTION -->
+
+            <!-- REVIEWS -->
+            <!-- end of REVIEWS  -->
+
+            <!-- BUY FORM sec -->
+            <div class="row g-3 mt-4 align-items-start">
+                <div class="col-12 col-lg-8" id="buy">
+                    <div class="card p-3">
+                        <h4>Buy Now</h4>
+                        <form class="needs-validation" novalidate>
+                            <div class="mb-2">
+                                <label class="form-label">Format</label>
+                                <select class="form-select" required>
+                                    <option value="">Choose...</option>
+                                    <option>Hardcover</option>
+                                    <option>Paperback</option>
+                                    <option>eBook</option>
+                                </select>
+                                <div class="invalid-feedback">Choose a format.</div>
+                            </div>
+                            <div class="mb-2">
+                                <label class="form-label">Quantity</label>
+                                <input type="number" class="form-control" min="1" value="1" required>
+                                <div class="invalid-feedback">Enter a quantity.</div>
+                            </div>
+                            <div class="d-grid"><button class="btn btn-success" type="submit">Add to Cart</button></div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="p-3">
+                        <img src="images/placeholder-small.png" alt="small png placeholder" class="small-png" style="max-width:120px;">
+                        <p class="small text-muted mt-2">Small PNG (animated)</p>
+                    </div>
+                </div>
+            </div>
+            <!-- end of BUY FORM sec -->
 
 
         </main>
