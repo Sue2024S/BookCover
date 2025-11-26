@@ -13,6 +13,11 @@ body{
     line-height:1.45;
 }
 
+.d-flex {
+    display: flex !important;
+    flex-wrap: wrap;
+}
+
 .container{
     max-width:var(--max-width);
 }
@@ -44,11 +49,16 @@ h1,h2,h3,h4 {
     min-height:180px; 
 }
 
+.carousel-item {
+  text-align: center;
+}
+
 /* REVIEWS */
 blockquote{
     background:#fff;
     padding:1rem;
     border-left:4px solid var(--accent);
+    font-style: italic;
 }
 
 /* ANIMATION */
