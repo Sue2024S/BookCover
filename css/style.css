@@ -16,7 +16,12 @@ body{
 .d-flex {
     display: flex !important;
     flex-wrap: wrap;
-}
+} 
+
+/* .my-flex-wrap {
+   display: flex;
+   flex-wrap: wrap;
+} */
 
 .container{
     max-width:var(--max-width);
